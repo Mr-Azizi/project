@@ -58,7 +58,7 @@ void addStudent()
     double score;
 
     printf("Eneter student's name: \n");
-    scanf("%s", &name);
+    scanf(" %[^\n]", name);
 
     printf("Enter student's score: \n");
     scanf("%lf", &score);
